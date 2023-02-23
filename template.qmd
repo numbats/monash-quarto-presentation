@@ -48,7 +48,7 @@ Lecturer: *`r rmarkdown::metadata$author`*
 
 -   `r rmarkdown::metadata$email`
 -   `r rmarkdown::metadata$date`
--   [`r rmarkdown::metadata[["unit-url"]]`](%60r%20rmarkdown::metadata%5B%5B%22unit-url%22%5D%5D%60)
+-   [`r rmarkdown::metadata[["unit-url"]]`](`r rmarkdown::metadata[["unit-url"]]`)
 
 ## Quarto Revealjs Basics
 
