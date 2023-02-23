@@ -46,25 +46,17 @@ Lecturer: *`r rmarkdown::metadata$author`*
 
 `r rmarkdown::metadata$department`
 
-::: tl
-<br>
-
-<ul class="fa-ul">
-
-<li><i class="fas fa-envelope"></i>`r rmarkdown::metadata$email`</li>
-
-<li><i class="fas fa-calendar-alt"></i> `r rmarkdown::metadata$date`</li>
-
-<li><i class="fa-solid fa-globe"></i> <a href="`r rmarkdown::metadata[["unit-url"]]`">`r rmarkdown::metadata[["unit-url"]]`</a></li>
-
-</ul>
-
-<br>
-:::
+-   `r rmarkdown::metadata$email`
+-   `r rmarkdown::metadata$date`
+-   [`r rmarkdown::metadata[["unit-url"]]`](%60r%20rmarkdown::metadata%5B%5B%22unit-url%22%5D%5D%60)
 
 ## Quarto Revealjs Basics
 
 For basics go to <https://quarto.org/docs/presentations/revealjs/>
+
+<iframe src="https://quarto.org/docs/presentations/revealjs/" width="100%" height="100%">
+
+</iframe>
 
 ## Monash Color Palettes
 
@@ -209,6 +201,6 @@ mtcars
 
 ## Example text
 
-This is example text with a citation [@wickham2014]. The citations are listed in \`references.bib\`
+This is example text with a citation [@wickham2014]. The citations are listed in `references.bib`
 
 ## Reference List
