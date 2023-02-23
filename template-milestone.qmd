@@ -1,0 +1,43 @@
+---
+title: "Title of Your Talk"
+subtitle: "Subtitle of Your Talk"
+date: 2022-02-27
+date-format: medium
+author: 
+ - name: "FirstName LastName"
+   email: "XXX@monash.edu"
+institute: "Department of Econometrics and Business Statistics"
+title-slide-attributes: 
+  data-background-image: "_extensions/monash/images/bg-03.png"
+footer: "Milestone Presentation | footer things"
+format: 
+  monash-revealjs:
+    multiplex: false
+    slide-number: true
+    show-slide-number: all
+    show-notes: true
+    controls: true
+execute:
+  echo: true
+bibliography: references.bib
+---
+
+## Overview
+
+## Motivation
+
+## Literature Review
+
+## Contribution
+
+## Details
+
+## Timeline
+
+## References
+
+### Example text
+
+This is example text with a citation [@wickham2014]. The citations are listed in `references.bib`
+
+## Reference List
