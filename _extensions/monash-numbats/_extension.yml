@@ -11,3 +11,4 @@ contributes:
       height: 720
       css: [assets/tachyons-addon.css, assets/custom.css]
       include-after-body: "assets/after-body.html"
+      include-in-header: "assets/header.html"
